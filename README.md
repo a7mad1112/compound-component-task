@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="./react-img.png" width="200">
+  <br>
+  Tab Component
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+  The React Tab Component is a versatile and customizable component that empowers users to navigate between different tabbed content sections. It's constructed using React and adheres to the compound component pattern.
+</p>
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+<p>To get started with the React Tab Component, you have two options:</p>
 
-### `npm start`
+### Option 1: Clone the Repository
+```
+git clone git@github.com:a7mad1112/compound-component-task.git
+npm i
+npm start
+```
+- <strong>git clone git@github.com:a7mad1112/compound-component-task.git</strong>: Clones the repository to your local machine.
+- <strong>npm install</strong>: Installs the necessary dependencies.
+- <strong>npm start</strong>: Starts the development server.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Option 2: Copy the Code
+<p>You can also copy the code of the tab component directly from this repository and integrate it into your project.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+### Importing the Component
+<p>To utilize the Tab Component in your application, import it from the appropriate directory:</p>
 
-### `npm test`
+```
+import Tab from 'put-the-correct-path-here';
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Example
+<p>Here's a straightforward example of how to use the Tab Component:</p>
 
-### `npm run build`
+```
+import Tab from 'put-the-correct-path-here';
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+function App() {
+  return (
+    <Tab>
+      <Tab.List>
+        <Tab.Item>Tab 1</Tab.Item>
+        <Tab.Item>Tab 2</Tab.Item>
+        <Tab.Item>Tab 3</Tab.Item>
+      </Tab.List>
+      <Tab.Panels>
+        <Tab.Panel>Content for Tab 1</Tab.Panel>
+        <Tab.Panel>Content for Tab 2</Tab.Panel>
+        <Tab.Panel>Content for Tab 3</Tab.Panel>
+      </Tab.Panels>
+    </Tab>
+  );
+}
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Thank you to Ibrahim Hendawi for the interview opportunity and your time.**
+<br/>
+**[Live Demo](https://guileless-haupia-f93131.netlify.app/)**
